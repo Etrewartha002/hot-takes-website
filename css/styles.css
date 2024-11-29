@@ -1,0 +1,28 @@
+h1{
+    font-family: "New Rocker", system-ui;
+    font-size: 5rem;
+}
+h2{
+    font-family: "New Rocker", system-ui;
+}
+.page-top{
+    justify-content: center;
+    display: flex;
+}
+span{
+    color: red;
+}
+.go-button{
+    background-color: rgb(247, 136, 1);
+    border-style: none;
+    border-radius: 5px;
+}
+.go-button:hover{
+    background-color: rgb(244, 130, 0);
+}
+#go-button{
+    background-color: rgb(236, 130, 0);
+}
+body{
+    background-image: url("/images/gradient.png");
+}
