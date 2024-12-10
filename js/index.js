@@ -1,14 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 
-function loadContent(callback){
-    //Load Twelve hot takes
-    callback();
-}
-function displayData(){
-    //display the hot takes
-    //
-}
 document.querySelector(".go-button").addEventListener("click", ()=>{
     console.log("working1");
     document.querySelector("button").setAttribute("id", "go-button");
@@ -20,4 +10,3 @@ document.querySelector(".go-button").addEventListener("click", ()=>{
     document.querySelector("#load-screen").removeAttribute("class");
     document.querySelector("button").setAttribute("class", "hide");
 });
-
