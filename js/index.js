@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 function loadContent(callback){
     //Load Twelve hot takes
     callback();
+    //return hot takes in a list variable
 }
 function displayData(){
     //display the hot takes
